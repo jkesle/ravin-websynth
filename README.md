@@ -1,9 +1,9 @@
-#Ravin' Websynth
-##Synth implementation using the WebAudio API and React
+# Ravin' Websynth  
+## Synth implementation using the WebAudio API and React
 
-###How To Use:
-1.) Install node and npm if you don't have them already
-Windows: `winget install NodeJS.NodeJS` or visit https://nodejs.org/en and click 'Install Node.js'
+### How To Use:
+1.) Install node and npm if you don't have them already  
+Windows: `winget install NodeJS.NodeJS` or visit https://nodejs.org/en and click 'Install Node.js'  
 Linux: use your package manager `sudo pacman -Ss node`
 
 2.) With Node & npm installed now, make sure NPM is on your PATH environment variable. if not, you'll need to add it
