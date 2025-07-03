@@ -1,0 +1,66 @@
+.key {
+  position: relative;
+  cursor: pointer;
+  font: 16px "Open Sans", "Lucida Grande", "Arial", sans-serif;
+  border: 1px solid black;
+  border-radius: 0 0 5px 5px;
+  width: 45px;
+  height: 180px;
+  text-align: center;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+  background-color: white;
+  user-select: none;
+  z-index: 1;
+}
+
+.key:hover {
+  background-color: #eef;
+}
+
+.key:active,
+.key.active {
+  background-color: #007bff;
+  color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+  transform: translateY(2px);
+}
+
+.key--sharp {
+  position: absolute;
+  background: black;
+  color: white;
+  width: 30px;
+  height: 60%;
+  top: 0;
+  z-index: 2; /* Appear on top of white keys */
+  margin-left: -15px; /* Center over the gap between white keys */
+  border: 1px solid #333;
+  border-radius: 0 0 3px 3px;
+}
+
+/* Position each sharp key uniquely relative to the start of the octave */
+.key--sharp[data-note="C#"] { left: 32.5px; }
+.key--sharp[data-note="D#"] { left: 82.5px; }
+.key--sharp[data-note="F#"] { left: 177.5px; }
+.key--sharp[data-note="G#"] { left: 227.5px; }
+.key--sharp[data-note="A#"] { left: 277.5px; }
+
+.key--sharp:hover {
+  background-color: #333;
+}
+
+.key--sharp:active, .key--sharp.active {
+    background-color: #007bff;
+}
+
+.key-label {
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
+    width: 100%;
+    pointer-events: none;
+}
+
+.key--sharp .key-label {
+    font-size: 0.8em;
+}

@@ -1,0 +1,11 @@
+.settings-left {
+    width: 50%;
+    position: absolute;
+    left: 0;
+    display: table-cell;
+    vertical-align: middle;
+
+    label, input {
+        vertical-align: middle;
+    }
+}

@@ -1,0 +1,11 @@
+.settings-right {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    display: table-cell;
+    vertical-align: middle;
+
+    input {
+        vertical-align: baseline;
+    }
+}
