@@ -1,5 +1,4 @@
-# Ravin' Websynth  
-## Synth implementation using the WebAudio API and React
+# Ravin' Websynth, it's a synthesizer
 
 ### How To Use:
 1.) Install node and npm if you don't have them already  
